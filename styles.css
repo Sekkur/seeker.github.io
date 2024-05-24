@@ -74,6 +74,18 @@ body {
     font-size: 1.5rem;
 }
 
+#project-text {
+    font-size: 30px;
+    display: inline-block;
+    color: #f39c12;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#project-text:hover {
+    color: #333;
+    transform: scale(1.9); 
+}
+
 /* Portfolio */
 .portfolio {
     padding: 40px 0;
@@ -115,50 +127,24 @@ body {
     padding: 40px 0;
 }
 
-.contact form {
-    display: grid;
-    gap: 10px;
-}
-
-.contact form label {
-    font-weight: bold;
-}
-
-.contact form input,
-.contact form textarea {
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.contact form .btn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact form .btn:hover {
-    background-color: #f39c12;
-}
-
 /* Footer */
 .footer {
     text-align: center;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
 .footer p {
     margin: 0;
+}
+
+#discord-img {
+    align-items: center; 
+    margin-right: 10px; 
+    max-width: 50px; 
+    vertical-align: middle;
 }
 
 /* Responsive */
